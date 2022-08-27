@@ -1,11 +1,25 @@
-import logo from './logo.svg';
 import './App.css';
+import {BrowserRouter as Router, Switch , Route} from 'react-router-dom'
+import Navbar from './components/NanBar'
+import Inicio from './components/pages/inicio'
+import items from './components/pages/items'
+import pokemon from './components/pages/Ropa';
+
+
+
+
+
 
 function App() {
+
+
   return (
-    <>
-  <h1>Hola tiendaA</h1>
-  </>
+    <div className="App">
+      <Router>
+        <Navbar/>
+      </Router>
+
+    </div>
   );
 }
 
