@@ -1,9 +1,9 @@
-import React from 'react'
-import Title from '../Title'
+import React from 'react';
+import Title from '../Title';
 
-export const itemListContainer= (props) => {
+export const itemListContainer= ({ texto }) => {
   return (
-    <title greeting={'props.texto'}/>
+    <title greeting={'props.texto'} />
   );
 }
 
