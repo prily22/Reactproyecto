@@ -1,5 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
+import Cardwitget from './Cardwitget'
 
 const NanBar = () => {
   return (
@@ -19,7 +20,7 @@ const NanBar = () => {
           <Link className="nav-link" to= '/Ropa'>Ropa</Link>
         </li>
         <li className="nav-item">
-          <Link className="nav-link" to='/items'> items</Link>
+          <Link className="nav-link" to='/Cardwitget'> <Cardwitget/></Link>
         </li>
       </ul>
     </div>
